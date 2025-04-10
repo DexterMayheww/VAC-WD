@@ -1,0 +1,25 @@
+div {
+    display: flex;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(122, 233, 178);
+    align-items: center;
+}
+
+div img {
+    border-radius: 8px;
+}
+
+div a {
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+    text-decoration: none;
+    width: fit-content;
+}
+div a:hover {
+    text-decoration: underline;
+}
