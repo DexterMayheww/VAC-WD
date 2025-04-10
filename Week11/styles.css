@@ -1,0 +1,114 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #191414;
+}
+.navbar {
+    width: 100%;
+    background-color: #1DB954;
+    padding: 10px;
+}
+.navbar td {
+    width: 30%;
+}
+.navbar .spotify a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.navbar .spotify img {
+    padding-right: 10px;
+}
+.navbar .search div {
+    float: left;
+}
+.home {
+    width: fit-content;
+    background-color: #96eeb5;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.search-box {
+    width: fit-content;
+    background-color: #96eeb5;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10rem;
+    display: flex;
+}
+.search-box input {
+    background-color: #96eeb5;
+    border: none;
+    padding-right: 50px;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+}
+.section {
+    margin-left: 150px;
+    display: flex;
+    position: relative;
+}
+.section h2 {
+    color: #FFFFFF;
+    position: absolute;
+}
+.song {
+    padding-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.song img {
+    border-radius: 10px;
+    width: 150px;
+}
+.song .song-title {
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 150px;
+}
+.song .artist {
+    width: 150px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.artists {
+    padding-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.artists img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.artists .artist-name {
+    font-weight: bold;
+    width: 150px;
+    color: #FFFFFF;
+}
+.artists .artist {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+footer {
+    padding: 30px;
+    background-color: #1DB954;
+    text-align: center;
+}
