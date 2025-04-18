@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'EPao Mayek';
+    src: url(EPAOMAYEK.TTF) format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'EPao Mayek';
+    font-size: 3rem;
+    background-color: #191414;
+}
+
+nav {
+    padding: 20px 200px;
+    background-color: #1DB954;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    height: fit-content;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown {
+    border: 1px solid black;
+    border-radius: 200px;
+    padding: 0 15px;
+    background-color: #96eeb5;
+}
+
+.dropdown-box {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #96eeb5;
+    margin: 250px;
+    padding: 50px;
+    text-align: justify;
+    width: 70%;
+}
+
+.dropdown-box p {
+    font-size: 2rem;
+}
+
+.dropdown-box img {
+    float: right;
+    margin-left: 30px;
+    max-width: 50%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+li:hover .dropdown-box {
+    display: block;
+}
+
+.dropdown:hover img {
+    transform: rotate(180deg);
+}
+
+
+main {
+    margin: 100px 0;
+    color: #fff;
+}
+
+main .main-box {
+    display: flex;
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+main p {
+    text-align: justify;
+}
+
+main img {
+    height: 300px;
+    margin-left: 30px;
+}
+
+footer {
+    background-color: #1DB954;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+footer .english {
+    font-family: Arial;
+    font-size: 1.5rem;
+}
+
+footer .meetei-mayek {
+    font-size: 1.65rem;
+}
