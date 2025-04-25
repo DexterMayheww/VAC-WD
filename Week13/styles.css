@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
+
+@font-face {
+    font-family: 'EPao Mayek';
+    src: url(EPAOMAYEK.TTF) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    color: #07507B;
+    padding: 20px 100px;
+}
+
+.header h1 {
+    font-family: 'Special Gothic Condensed One';
+}
+
+.header .mayek {
+    font-family: 'EPao Mayek';
+    font-size: 1.5rem;
+}
+
+.header .recog {
+    color: #000;
+}
+
+nav {
+    width: 100%;
+    background-color: #07507B;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0 100px;
+}
+
+nav li {
+    padding: 20px 0;
+    margin: 0 10px;
+    position: relative;
+}
+
+nav li:hover {
+    background-color: #009afd;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 60px;
+    left: 0;
+    width: 250px;
+    padding: 0;
+}
+
+.dropdown li {
+    padding: 10px;
+    background-color: #e4f4fd;
+    cursor: pointer;
+}
+
+.dropdown li:hover {
+    background-color: #009afd;
+}
+
+nav li:hover .dropdown {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    padding: 0 100px;
+}
+
+main .intro {
+    width: 65%;
+    margin-right: 80px;
+}
+
+main .notice-accred {
+    width: 30%;
+}
+
+.welcome {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #07507B;
+    margin: 30px 0;
+}
+
+.main-text div img {
+    float: left;
+    margin-right: 20px;
+}
+
+.main-text p {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.notice-accred ul {
+    list-style-type: none;
+}
+
+.notice-accred a {
+    color: #07507B;
+}
+
+.notice-accred li {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.notice-accred .date {
+    width: fit-content;
+    font-size: 0.7rem;
+    padding: 10px;
+    background-color: #009afd;
+    color: #fff;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+footer {
+    padding: 0 0 0 100px;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    background-color: #eee;
+}
+
+.link-service {
+    width: 30%;
+}
+
+.links ol {
+    padding: 0 0 0 30px;
+}
+
+.links a {
+    color: #07507B;
+}
+
+.services ol {
+    padding: 0 0 0 30px;
+}
+
+.services a {
+    color: #07507B;
+}
+
+.contact {
+    width: 30%;
+}
+
+.form {
+    background-color: #009afd;
+    padding: 0 100px 0 20px;
+    width: 40%;
+}
+
+.form .welcome {
+    color: #fff;
+}
+
+.form td {
+    padding-bottom: 10px;
+}
+
+.form td label {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+.form table {
+    width: 100%;
+}
+
+.form input {
+    padding: 1px 0;
+    width: 100%;
+}
+
+.form textarea {
+    padding: 20px 0;
+    width: 100%;
+}
+
+.form .submit {
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: #07507B;
+    color: #fff;
+}
