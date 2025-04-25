@@ -7,7 +7,7 @@ div {
     border: 1px solid black;
     width: fit-content;
     padding: 20px;
-    margin: 30px;
+    margin: 20px 30px;
     flex-direction: column;
     border-radius: 10px;
     background-color: rgb(122, 233, 178);
