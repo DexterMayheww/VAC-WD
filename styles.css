@@ -1,8 +1,13 @@
+body {
+    display: flex;
+}
+
 div {
     display: flex;
     border: 1px solid black;
     width: fit-content;
     padding: 20px;
+    margin: 30px;
     flex-direction: column;
     border-radius: 10px;
     background-color: rgb(122, 233, 178);
