@@ -1,8 +1,15 @@
 body {
     display: flex;
+    flex-direction: column;
 }
 
-div {
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
     display: flex;
     border: 1px solid black;
     width: fit-content;
@@ -14,17 +21,17 @@ div {
     align-items: center;
 }
 
-div img {
+.container img {
     border-radius: 8px;
 }
 
-div a {
+.container a {
     font-size: 20px;
     color: #000;
     margin-top: 20px;
     text-decoration: none;
     width: fit-content;
 }
-div a:hover {
+.container a:hover {
     text-decoration: underline;
 }
